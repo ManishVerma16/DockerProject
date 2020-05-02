@@ -36,3 +36,26 @@ Configure yum by adding docker.repo:
         save it.
     $ yum install docker-ce --nobest
 
+# Start Docker:
+    
+    $ sudo systemctl start docker
+
+# Now install Docker Compose:-
+    
+    $ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+    
+    $ sudo chmod +x /usr/local/bin/docker-compose
+
+
+## For downloading the Images go to https://hub.docker.com
+
+Download the Joomla image:
+    
+    $ docker pull joomla:latest
+    
+Download the MySQL image:
+
+    $ docker pull mysql:5.7 
+
+![]()
+
