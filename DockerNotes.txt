@@ -1,0 +1,105 @@
+DOCKER Sessions
+
+01/03/2020 session 0
+The session was good and I learned so many new things like:
+1. Introduction to Docker and container technology.
+2. learned and setup of dnf and yum for installation of applications. 
+3. understand the installation of docker-ce in rhel8 using dnf command.
+4. learned how to install ubuntu, centos os over docker.
+5. learned some basic command to use docker like: ps, images, run -t -i etc.
+and many more things...
+Your work is highly appreciated.
+Thank you for giving your precious time and making our country a nation of creators.
+RISE id : RISE 2020.83.8.1
+
+07/03/2020 session 1
+The session was good and I learned so many new things like:
+1. how to check docker is active or not.
+2. learned how to download an os image from docker hub and used docker image command to check if os is downloaded or not.
+3. learned docker ps-a command to check all the running os on docker. 
+4. learned about management commands and general commands used in docker like docker container <options> etc.
+5. learned how to make our own image and how clone it uisng commit.
+6. learned about attach and dettach an os in docker.
+7. learned how to free ram using free-m command and to get information of docker using docker info command.
+and many more things...
+Your work is highly appreciated.
+Thank you for giving your precious time and making our country a nation of creators.
+RISE id : RISE 2020.83.8.1
+
+08/03/2020 session 2
+The session was good and I learned so many new things like:
+1. learned how to import and export OS.
+2. learned server setting used in docker technology.
+3. learned how to download and upload images on docker hub.
+4. understand how resource are utilised in docker.
+5. how to get ip address using inspect command.
+6. understand the setup of Apache web server.
+7. learned about the concept of shipping concept of cpulists.
+8. learned how to exchange file using scp from other os.
+and many more things...
+Your work is highly appreciated.
+Thank you for giving your precious time and making our country a nation of creators.
+RISE id : RISE 2020.83.8.1
+
+14/03/2020 session 3
+The session was good and I learned so many new things like:
+1. learned about the concept works behind execution and logging command.
+2. learned about manual and automatic ways of execution of a command.
+3. learned how to launch a website using webservers.
+4. learned about the networking concept which are related and relevant to the docker.
+5. learned about the internal load balancing and its uses and configuration on docker.
+6. learned about bridge which is a software switch and also learned how to launch container in different networks.
+7. learned about null drivers, routers and switches.
+and many more things...
+Your work is highly appreciated.
+Thank you for giving your precious time and making our country a nation of creators.
+RISE id : RISE 2020.83.8.1
+
+15/03/2020 session 4
+The session was good and I learned so many new things like:
+1. learned about the architecture and engine of docker on which it works.
+2. learned how the concept of bare metal and virtualization in detail,how they come into picture and its drawbacks.
+3. learned about the networking concepts like pat,dnat (destination nat),snat (source nat) etc.
+4. learned about the working of host network in docker and also about private and public IP.
+5. learned about the docker mapping.
+6. learned many commands like: pstree, ps -aux, 
+and many more things...
+Your work is highly appreciated.
+Thank you for giving your precious time and making our country a nation of creators.
+RISE id : RISE 2020.83.8.1
+
+04/04/2020 session 5
+The session was good and I learned so many new things like:
+1. understand the internal strucutre of docker, how it uses hardware and redhat kernel(base OS) and how it works with the help of all these thing.
+2. understand that we put only those software which are required for services in container.
+3. learned about docker nics other than enp0s3 and how IP forwarding works in docker and redhat and how routing is used for connecting docker with external internet.
+4. learned about iptables which provide NATing and PATing services or exposing of container which help in IP forwarding, we understand the whole working and conceptual things.
+5. learned about Docker proxy which manages the router.
+6. learned about storage and its two types: framral(empheral) and persistence and what are the difference between these two storages.
+7. understand the concept of framral and persistence with lots of examples and performed lots of practicals to understand the concept in deep-dive.
+8. we learned about the persistence storage using volume option in docker and create an external safe storage which helps a lot in case of some type of system failures and major issues.
+9. understand how to set up local yum for software installation in docker and use it to install httpd webserver without using internet.
+10. learned lots and lots of command and option to do all the above mention practicals.
+and many more things...
+Your work is highly appreciated.
+Thank you for giving your precious time and making our country a nation of creators.
+RISE id : RISE 2020.83.8.1
+
+
+12/04/2020 session 6
+The session was good and I learned so many new things like:
+1. we created a project based on Wordpress and mysql which is a blog or article site and its deployment over docker.
+2. we understand about mutli-tier architecture which is a good concept and highly used in today's real world situation.
+3. in multi-tier architecture we use containers running on different os and linked them in such a way that the work as a whole new dependent containers. we used wordpress and mysql for this puprose.
+4. we understand about mysql service, install it, setup it, and launch it for storing the data generated through wordpress into its data base.
+5. we used wordpress for making a whole new front-end of our project and customise its look and feel according to our convenience and connected it with mysql database.
+6. we use almost all the concept we have learnt in previous docker class like: we use PATting, linking(DNS) from networking, apache-php webserver, volumes to store the webpages and database, and some concept of yaml language for coding.
+7. we learnt about an important concept called IAAC or Infrastructure as a Code which is nothing but making a program file which consist whole infrastructure and we can launch it using a one command in one second.
+8. for managing the Infrasturcture in docker we need to use docker-compose which is generally a .yml file written in .yaml programming language and everything in this language is stored inside in key-value pair format.
+9. we learn how to understand and rectify the error coming in launching the project and also understand about entrypoint in docker containers and how the work in multi-tier architecture.
+and many more things...
+Your work is highly appreciated.
+Thank you for giving your precious time and making our country a nation of creators.
+RISE id : RISE 2020.83.8.1
+
+
