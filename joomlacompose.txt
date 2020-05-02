@@ -1,0 +1,9 @@
+
+docker run -dit -e JOOMLA_DB_HOST=dbos  -e JOOMLA_DB_USER=ishver  -e JOOMLA_DB_PASSWORD=joomla -e JOOMLA_DB_NAME=joomladb  -v joomla_storage:/var/lib/mysql  -p 8080:80 --link dbos --name joomos joomla:latest
+
+
+docker run -dit -e MYSQL_ROOT_PASSWORD=rootpass  -e MYSQL_USER=ishver -e MYSQL_PASSWORD=joomla  -e MYSQL_DATABASE=joomladb -v mysql_storage:/var/lib/mysql --name dbos mysql:5.7 
+
+
+
+
