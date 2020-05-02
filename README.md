@@ -52,10 +52,64 @@ Configure yum by adding docker.repo:
 Download the Joomla image:
     
     $ docker pull joomla:latest
-    
+![](joomla%20download.png)
+
 Download the MySQL image:
 
     $ docker pull mysql:5.7 
 
+![](mysql%20download.png)
+
+# For Setup:
+## Mysql Server:
+    
+    $ docker run -dit -e MYSQL_ROOT_PASSWORD=rootpass  -e MYSQL_USER=username -e MYSQL_PASSWORD=password  -e MYSQL_DATABASE=mydb -v mysql_storage:/var/lib/mysql --name dbos mysql:5.7
+    
+## Mysql Client:
+    
+    $ mysql -h serverIP -u username -p(your_password)
+    
+![](mysql%20server%20launched.png)
+
+## Joomla Server:
+    
+    $ docker run -dit -e JOOMLA_DB_HOST=dbos  -e JOOMLA_DB_USER=ishver  -e JOOMLA_DB_PASSWORD=joomla -e JOOMLA_DB_NAME=joomladb  -v joomla_storage:/var/lib/mysql  -p 1234:80 --link dbos --name joomos joomla:latest
+
+![](joomla%20os%20launch.png)
+
+
+# Docker-Compose
+
+Install a docker-compose software from https://docs.docker.com/compose/install. Make a compose file using:-
+    
+    $ mkdir mycompose. 
+
+You can create/edit your docker-compose file using
+
+    $ vim docker-compose.yml
+
+Here in this **docker-compose.yml** file  edit the **joomla_server** and **MySQL server** command in yaml format likes this:-
+    
+![](compose.png)
+
+![](https://github.com/ManishVerma16/DockerProject/blob/master/joomla%20launch%20and%20setup.png)
+
+![](https://github.com/ManishVerma16/DockerProject/blob/master/login%20panel.png)
+
+![](https://github.com/ManishVerma16/DockerProject/blob/master/joomla%20db%20setup.png)
+
+![](https://github.com/ManishVerma16/DockerProject/blob/master/post.png)
+
+![]()
 ![]()
 
+
+
+
+
+
+
+
+
+
+    
