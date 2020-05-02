@@ -92,6 +92,19 @@ Here in this **docker-compose.yml** file  edit the **joomla_server** and **MySQL
     
 ![](compose.png)
 
+# Now we are moving to launch our **Docker-Compose**
+Open your terminal and go to that directory where you have saved your compose file:-
+    $ cd (your compose directory)
+    $ docker-compose up
+        or
+    $ docker-compose -f (compose_filename) up
+
+Uptill now our all setup goes fine.
+
+## Now launch firefox browser and in search bar type http://URL:port as in http://192.168.xx.xx:1234 and hit **Enter**. If everything working good and properly.
+## Bingo!!!!!!!!!!!!!!!!
+You reach to this beautiful setup page provided by JOOMLA:-
+
 ![](https://github.com/ManishVerma16/DockerProject/blob/master/joomla%20launch%20and%20setup.png)
 
 ![](https://github.com/ManishVerma16/DockerProject/blob/master/login%20panel.png)
